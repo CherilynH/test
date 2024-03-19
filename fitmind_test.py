@@ -22,7 +22,6 @@ page = st.sidebar.radio("Seiten", ["Startseite", "Fitness Tracker", "Mental Heal
 
 # Startseite
 if page == "Startseite":
-    st.image(Image.open("fitness_mind.jpg"), use_column_width=True)
 
     st.subheader("Willkommen bei FitMind!")
     st.write("FitMind unterstützt dich dabei, deine Fitnessziele zu erreichen und gleichzeitig dein mentales Wohlbefinden zu verbessern.")
